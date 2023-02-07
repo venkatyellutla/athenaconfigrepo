@@ -1,6 +1,53 @@
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/pharmacydb
+#    username: root
+#    password: root
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#  jpa:
+#    database-platform: org.hibernate.dialect.MySQL8Dialect
+#    show-sql: false
+#    generate-ddl: false
+#    hibernate:
+#      ddl-auto: update
 store:
- storeNo: 1002
- storeNae: appollo
- storeManager: Bharu
- location: Banglore
- 
+  storeNo: 100
+  storeName: appollo pharamacy
+  storeManager: Mathew
+  openHours: 8
+  openMinutes: 30
+  closingHours: 12
+  closingMinutes: 00
+  location: "Shamshabad, Hyderabad"      
+...
+---
+spring:
+  config:
+    activate:
+      on-profile: test
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/pharmacydb
+#    username: root
+#    password: root
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#  jpa:
+#    database-platform: org.hibernate.dialect.MySQL8Dialect
+#    show-sql: false
+#    generate-ddl: false
+#    hibernate:
+#      ddl-auto: update
+store:
+  storeNo: 300
+  storeName: medplus pharamacy
+  storeManager: Greg
+  openHours: 9
+  openMinutes: 30
+  closingHours: 10
+  closingMinutes: 00
+  location: "Panjagutta, Hyderabad"      
+...
+    
