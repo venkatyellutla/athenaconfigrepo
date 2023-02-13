@@ -1,9 +1,9 @@
 store:
   storeNo: 1002
   storeName: appollo pharamacy
-  storeManager: Mathew
+  storeManager: Venkat
   openHours: 8
   openMinutes: 30
   closingHours: 12
   closingMinutes: 00
-  location: "Shamshabad, Hyderabad"
+  location: "Kr Puram, Bangalore"
